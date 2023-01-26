@@ -10,9 +10,9 @@ After choosing a new grid option in the settings:
 
 the individual image numbers are added on the grid:
 
-<img src="images/grid-1517-123-stickman.jpg"/>
+<img src="images/grid-1517-123-stickman.png"/>
 
-<img src="images/xy_grid-0137-123-stickman.jpg"/>
+<img src="images/xy_grid-0137-123-stickman.png"/>
 
 This should make identifying the images, especially in larger batches, much easier.
 
