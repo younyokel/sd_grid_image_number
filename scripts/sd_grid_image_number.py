@@ -14,8 +14,9 @@ def adaptation(width, height, strength):
 # Add option to settings
 def on_ui_settings():
     section = ('numeric-grids', "Numeric Grids")
-    font_options = ["Default"]
-    font_options.extend(matplotlib.font_manager.findSystemFonts())
+    font_options = matplotlib.font_manager.findSystemFonts()
+    font_options.sort()
+    font_options.insert(0, "Default")
 
     opts.add_option("sd_grid_add_image_number", OptionInfo(True, "Print an number of each image into the grid", section=section))
     opts.add_option("sd_grid_adaptive", OptionInfo(True, "Use adapted font size and distance for image number in grid", section=section))
