@@ -1,25 +1,19 @@
-# Stable Diffusion extension: Add the image's number to its picture in the grid
+# Stable Diffusion Grid Image Number Extension
 
-A custom extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to add the image's number to its picture in the grid.
+Are you tired of scrolling through a large batch of images on the [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) without being able to easily identify them? Look no further! Introducing the Stable Diffusion Grid Image Number Extension.
 
-Supports number positioning, counting from the beginning of the grid or by filename, custom colors, shadow or box background mode.
+This custom extension allows you to add the image's number to its picture in the grid, making it much easier to identify and organize your images. With this extension, you have the ability to customize the number's positioning, counting method (from the beginning of the grid or by filename), and color. It also offers the option for a shadow or box background mode.
 
-After choosing a new grid option in the settings:
+Here's an example of the extension in action:
 
-<img src="images/settings.jpg"/>
+![Settings Example](images/settings.jpg)
 
-the individual image numbers are added on the grid:
+![Example 1](images/example1.png)
 
-<img src="images/grid-1517-123-stickman.png"/>
-
-<img src="images/xy_grid-0137-123-stickman.png"/>
-
-This should make identifying the images, especially in larger batches, much easier.
+![Example 2](images/example2.png)
 
 ## Installation
 
-The extension can be installed directly from within the **Extensions** tab within the Webui.
-
-You can also install it manually by running the following command from within the webui directory:
+The extension can be easily installed directly from within the **Extensions** tab within the Stable Diffusion WebUI. If you prefer to install it manually, you can run the following command from within the webui directory:
 
 	git clone https://github.com/younyokel/sd_grid_image_number extensions/sd_grid_image_number
